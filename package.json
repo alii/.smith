@@ -1,0 +1,18 @@
+{
+  "name": "dot-smith",
+  "version": "1.0.0",
+  "description": "dot smith. create basic websites with no coding knowledge",
+  "main": "src/index.js",
+  "repository": "https://github.com/aabbccsmith/.smith",
+  "author": "alistair smith <alistair@aabbccsmith.dev> (https://aabbccsmith.dev)",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "html-minifier": "^4.0.0",
+    "inquirer": "^7.0.0",
+    "jsdom": "^15.2.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
