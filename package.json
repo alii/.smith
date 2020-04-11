@@ -9,10 +9,13 @@
   "private": false,
   "dependencies": {
     "html-minifier": "^4.0.0",
-    "inquirer": "^7.0.0",
-    "jsdom": "^15.2.0"
+    "inquirer": "^7.1.0",
+    "jsdom": "^16.2.2"
   },
   "scripts": {
     "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4"
   }
 }
